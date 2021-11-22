@@ -1,0 +1,15 @@
+|encod
+w[0] => Equal0.IN3
+w[1] => y~0.DATAA
+w[1] => Equal0.IN2
+w[2] => y~0.OUTPUTSELECT
+w[2] => y~1.DATAA
+w[2] => Equal0.IN1
+w[3] => y~1.OUTPUTSELECT
+w[3] => y~2.OUTPUTSELECT
+w[3] => Equal0.IN0
+y[0] <= y~2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y~1.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

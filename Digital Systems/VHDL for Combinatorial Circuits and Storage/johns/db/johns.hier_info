@@ -1,0 +1,19 @@
+|johns
+Clrn => Qreg[2].ACLR
+Clrn => Qreg[1].ACLR
+Clrn => Qreg[0].ACLR
+E => Qreg[0].ENA
+E => Qreg[1].ENA
+E => Qreg[2].ENA
+Clkn => Qreg[2].CLK
+Clkn => Qreg[1].CLK
+Clkn => Qreg[0].CLK
+STUDENT_ID[0] <= Qreg[2].DB_MAX_OUTPUT_PORT_TYPE
+STUDENT_ID[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+STUDENT_ID[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+STUDENT_ID[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Qreg[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Qreg[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[0] <= Qreg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

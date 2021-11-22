@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity lab6 is
+
+
+end lab6;
+
+
+architecture Behavior of lab6 is
+begin
+
+end Behavior;

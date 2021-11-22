@@ -1,0 +1,24 @@
+|lab6
+Clock => y~11.DATAIN
+Resetn => y~15.DATAIN
+data_in => y~0.DATAB
+data_in => Selector0.IN3
+data_in => Selector1.IN4
+data_in => Selector2.IN5
+data_in => Selector3.IN3
+data_in => Selector0.IN1
+data_in => Selector1.IN2
+data_in => y~1.DATAB
+data_in => y~2.DATAB
+data_in => Selector2.IN2
+data_in => Selector3.IN1
+student_id[0] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+student_id[1] <= student_id[1]~1.DB_MAX_OUTPUT_PORT_TYPE
+student_id[2] <= student_id~2.DB_MAX_OUTPUT_PORT_TYPE
+student_id[3] <= student_id[3]~0.DB_MAX_OUTPUT_PORT_TYPE
+current_state[0] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+current_state[1] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+current_state[2] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+current_state[3] <= <GND>
+
+
